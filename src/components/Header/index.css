@@ -1,0 +1,54 @@
+/* Write your CSS code here */
+.nav-header {
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  margin-left: -40px;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+  font-family: 'Roboto';
+}
+
+.blog-container {
+  display: flex;
+  align-items: center;
+}
+.blog-title {
+  font-family: 'Roboto';
+  color: #12022f;
+  font-size: 16px;
+  font-weight: bold;
+}
+.sub-title {
+  color: white;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+
+.route-link {
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 16px;
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.link-item {
+  list-style-type: none;
+}
+
+.image {
+  height: 24px;
+  width: 24px;
+  margin-right: 8px;
+}
